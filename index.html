@@ -16,8 +16,7 @@
 
   <script>
     $(document).ready(function() {
-      //Callback works only with direction = "down"
-      $('.flipTimer').flipTimer({ direction: 'up' });
+       $('.example').flipTimer({ direction: 'down', date: 'Sep 08, 2020 23:15:00', callback: function() { alert('times up!'); } });
     });
   </script>
 </head>
